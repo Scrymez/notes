@@ -49,11 +49,46 @@ tbody > tr {
    padding-top: 6.5%;
    font-size: xx-large;
    color: grey;
-   margin-left: 70%;
+   margin-left: 70%; /*......*/
 }
 .note-data{
    font-size: large;
    padding-top: 2.5%;
    float: left;
    color: grey;
+}
+
+/*EDIT SCREEN*/
+
+#edit-screen{
+   margin: 5%;
+   margin-top: 10%;
+   max-width: 100%;
+}
+#back-icon{
+   font-size: xx-large;
+   float: left;
+}
+input{
+   font-size: xx-large;
+   border: none;
+   outline: none;
+   float: left;
+   width: 80%;
+}
+hr{
+   width: 100%;
+   float: left;
+   margin-top: 5%;
+   margin-bottom: 10%;
+   border: 1px solid grey;
+}
+textarea{
+   font-size: x-large;
+   font-family: Arial, sans-serif;
+   width: 100%;
+   border: none;
+   outline: none;
+   resize: none;
+   height: 100%;
 }
